@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: white;
+    background-image: url(P1160084.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: darkslategrey;
+    padding: 30px;
+    border-bottom: 5px white solid;
+}
+
+header nav {
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    height: 450px;
+    width: 100%;
+    background-image: url(P1160002.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    border-bottom: 3px white solid;
+}
+
+.hero h2 {
+    text-decoration-line: underline;
+}
+
+.hero p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nani {
+    margin-left: -50px;
+    height: 400px;
+    width: 300px;
+}
+
+.intro {
+    margin: 0 -115px 100px 0;
+    display: flex;
+    justify-content: end;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+main {
+    font-size: 24px;
+    display: inline-block;
+}
+
+main div {
+    margin: 25px 0 50px 50px;
+    background-color: darkslategrey;
+    width: 200px;
+    padding: 10% 0;
+    border-top: 5px white solid;
+    border-right: 5px white solid;
+    clear: both;
+    height: 200px;
+    text-align: center;
+}
+
+aside {
+    width: 50%;
+    clear: both;
+    float: right;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+aside section {
+    margin: 25px 50px 50px 0;
+    height: 200px;
+    padding: 25px;
+    background-color: darkslategray;
+    border-top: 5px white solid;
+    border-left: 5px white solid;
+    line-height: 1.4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+aside h2 {
+    text-decoration-line: underline;
+    font-size: 28px;
+    margin-top: -25px;
+}
+
+aside p {
+    font-size: 20px;
+}
+
+.contacts {
+    font-size: 24px;
+}
+
+footer {
+    background-color: darkslategrey;
+    height: 75px;
+    border-top: 5px white solid;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+
+footer h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+@media screen and (min-width: 400px) {
+    
+}
