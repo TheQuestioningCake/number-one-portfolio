@@ -6,3 +6,6 @@ For this homework assignment we had a week to build our own portfolio website fr
 
 ![Screenshot](assests/prework-image.png) 
 
+## Link to deploted site
+https://thequestioningcake.github.io/number-one-portfolio/ 
+
